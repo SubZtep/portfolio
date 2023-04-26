@@ -1,0 +1,7 @@
+semi: false
+endOfLine: lf
+printWidth: 120
+arrowParens: avoid
+trailingComma: none
+insert_final_newline: true
+trim_trailing_whitespace: true
