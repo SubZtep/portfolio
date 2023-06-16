@@ -33,9 +33,7 @@
 
 body {
   width: 100%;
-  /* height: auto; */
-  height: 100vh;
-  min-height: 100%;
+  min-height: 100vh;
   font-family: "Mona Sans";
   letter-spacing: 0.02rem;
   font-weight: 420;
@@ -104,11 +102,14 @@ footer {
 }
 
 @media (min-width: 600px) {
-  /* body {
-    height: 100%;
-  } */
   footer {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    height: 100vh;
   }
 }
 
