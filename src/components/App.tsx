@@ -17,6 +17,7 @@ export default () => (
           </small>
         </sup>
       </legend>
+
       <TagList />
     </fieldset>
 

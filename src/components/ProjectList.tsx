@@ -1,19 +1,15 @@
-import { type Component, For, Show, createSignal, createEffect, on } from "solid-js"
+import { type Component, For, Show, createSignal, createEffect } from "solid-js"
 import { parse } from "marked"
 import { state } from "../store"
 import styles from "./App.module.css"
 
 const ProjectList: Component = () => {
   const [showAll, setShowAll] = createSignal(false)
-  let wrapper: HTMLDivElement | undefined
 
-  createEffect(on(
-    () => state.visibleTags,
-    () => setShowAll(state.visibleTags.length === 0)
-  ))
+  createEffect(() => void setShowAll(state.visibleTags.length === 0))
 
   return (
-    <div ref={wrapper} class={styles.projectlist}>
+    <div class={styles.projectlist}>
       <For each={state.projects}>
         {project => (
           <Show when={showAll() || state.visibleTags.some(tag => project.tags.includes(tag))}>

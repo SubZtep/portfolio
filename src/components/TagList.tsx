@@ -1,9 +1,8 @@
 import { type Component, For, onMount } from "solid-js"
-import { unwrap } from "solid-js/store"
 import { state, setState } from "../store"
 import styles from "./App.module.css"
 
-const tags = Array.from(new Set(state.projects.map(project => unwrap(project).tags).flat())).sort()
+const tags = Array.from(new Set(state.projects.map(project => project.tags).flat())).sort()
 
 const TagList: Component = () => {
   let wrapper: HTMLDivElement | undefined
@@ -14,9 +13,7 @@ const TagList: Component = () => {
       // @ts-ignore
       input.addEventListener("change", ({ target }) => {
         const visibleTags: string[] = []
-        wrapper?.querySelectorAll<HTMLElement>("input:checked").forEach(input => {
-          visibleTags.push(input.dataset.tag!)
-        })
+        wrapper?.querySelectorAll<HTMLElement>("input:checked").forEach(input => visibleTags.push(input.dataset.tag!))
         setState({ visibleTags })
       })
     })
