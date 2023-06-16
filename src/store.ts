@@ -5,7 +5,7 @@ export const [state, setState] = createStore({
   projects: [
     {
       name: "Virtulala",
-      tags: ["JavaScript"],
+      tags: ["JavaScript", "React JS", "Web App"],
       links: {
         Website: "https://virtulala.com/",
         GitHub: "https://github.com/SubZtep/virtulala#readme"
