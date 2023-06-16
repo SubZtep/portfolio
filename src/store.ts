@@ -5,7 +5,7 @@ export const [state, setState] = createStore({
   projects: [
     {
       name: "Virtulala",
-      tags: ["JavaScript", "React JS", "Web App"],
+      tags: ["JavaScript", "React JS"],
       links: {
         Website: "https://virtulala.com/",
         GitHub: "https://github.com/SubZtep/virtulala#readme"
@@ -28,7 +28,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "Baby Monitor",
-      tags: ["Vue.js", "Web App"],
+      tags: ["Vue.js"],
       links: {
         GitHub: "https://github.com/SubZtep/baby-monitor#readme"
       },
@@ -38,7 +38,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "Depth",
-      tags: ["Vue.js", "Web App"],
+      tags: ["Vue.js"],
       links: {
         GitHub: "https://github.com/SubZtep/depth#readme"
       },
@@ -49,7 +49,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "1_accustic",
-      tags: ["CSS", "NFT"],
+      tags: ["NFT"],
       links: {
         Website: "https://www.hicetnunc.xyz/objkt/52229"
       },
@@ -60,7 +60,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "serfozoiroda.hu",
-      tags: ["Vue.js", "CSS", "PHP", "Website"],
+      tags: ["Vue.js", "PHP"],
       links: {
         Website: "https://serfozoiroda.hu/"
       },
@@ -71,7 +71,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "Vite Plugin Pug",
-      tags: ["JavaScript", "Plugin"],
+      tags: ["JavaScript", "Node.js"],
       links: {
         GitHub: "https://github.com/SubZtep/vite-plugin-pug#readme"
       },
@@ -81,7 +81,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "CSS Tetris 3D",
-      tags: ["JavaScript", "CSS", "Game"],
+      tags: ["JavaScript"],
       links: {
         Website: "https://subztep.github.io/css-tetris-3d/",
         GitHub: "https://github.com/SubZtep/css-tetris-3d#readme"
@@ -92,7 +92,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "My Repos Action",
-      tags: ["JavaScript", "Script"],
+      tags: ["JavaScript"],
       links: {
         GitHub: "https://github.com/SubZtep/my-repos-action#readme"
       },
@@ -112,7 +112,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "A-Frame Warpspeed Texture",
-      tags: ["JavaScript", "Script"],
+      tags: ["JavaScript"],
       links: {
         GitHub: "https://github.com/SubZtep/aframe-warpspeed-texture#readme",
         Website: "https://subztep.github.io/aframe-warpspeed-texture/"
@@ -124,7 +124,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "Flow of Four",
-      tags: ["JavaScript", "VR", "Game"],
+      tags: ["JavaScript", "VR"],
       links: {
         GitHub: "https://github.com/SubZtep/js13k-2020#readme",
         Website: "https://subztep.github.io/js13k-2020/"
@@ -148,7 +148,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "WAAπSynth",
-      tags: ["React JS", "Web App"],
+      tags: ["React JS"],
       links: {
         GitHub: "https://github.com/SubZtep/synth#readme",
         Website: "https://subztep.github.io/synth/"
@@ -189,7 +189,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "JSON City",
-      tags: ["JavaScript", "Web App"],
+      tags: ["JavaScript"],
       links: {
         GitHub: "https://github.com/SubZtep/JsonCity",
         Website: "https://json.city/"
@@ -199,7 +199,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "Whirled on the Spirit Spiral",
-      tags: ["JavaScript", "VR", "Game"],
+      tags: ["JavaScript", "VR"],
       links: {
         // blog: "https://demo.land/blog/2018/10/02/whirled-js-game-jam-code/",
         Website: "https://subztep.github.io/js13k-2018/dist/",
@@ -210,7 +210,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "Road Pump",
-      tags: ["Unity3D", "Game"],
+      tags: ["Unity3D"],
       links: {
         // blog: "https://demo.land/blog/2018/05/13/ludum-dare-41/",
         Website: "https://subztep.itch.io/road-pump"
@@ -223,7 +223,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "SQLite Manager",
-      tags: ["Unity3D", "Plugin"],
+      tags: ["Unity3D"],
       links: {
         GitHub: "https://github.com/SubZtep/SQLiteManager"
       },
@@ -232,7 +232,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "The Hunger Maims",
-      tags: ["Unity3D", "Game"],
+      tags: ["Unity3D"],
       links: {
         // blog: "https://demo.land/blog/2017/12/16/ludum-dare-40/",
         Website: "https://subztep.itch.io/the-hunger-maims"
@@ -250,7 +250,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "While Fly",
-      tags: ["Unity3D", "Game"],
+      tags: ["Unity3D"],
       links: {
         // blog: "https://demo.land/blog/tag/whilefly/",
         Website: "https://subztep.itch.io/whilefly"
@@ -267,7 +267,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "PersistData",
-      tags: ["Unity3D", "Script"],
+      tags: ["Unity3D"],
       links: {
         GitHub: "https://github.com/SubZtep/PersistData"
       },
@@ -277,7 +277,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "Help to Find Cats",
-      tags: ["Unity3D", "VR", "Game"],
+      tags: ["Unity3D", "VR"],
       links: {
         // blog: "https://demo.land/blog/2016/05/02/help-to-find-cats/",
         Website: "https://devpost.com/software/help-to-find-cats"
@@ -288,7 +288,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "PHP Cron",
-      tags: ["PHP", "Script"],
+      tags: ["PHP"],
       links: {
         GitHub: "https://github.com/SubZtep/php-cron"
       },
@@ -298,7 +298,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "GIF Animation Preview",
-      tags: ["PHP", "JavaScript", "CSS", "Plugin"],
+      tags: ["PHP", "JavaScript"],
       links: {
         Website: "https://wordpress.org/plugins/gif-animation-preview/",
         GitHub: "https://github.com/SubZtep/gif-animation-preview"
@@ -309,7 +309,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "Modell",
-      tags: ["PHP", "Script"],
+      tags: ["PHP"],
       links: {
         GitHub: "https://github.com/SubZtep/modell"
       },
@@ -318,7 +318,7 @@ export const [state, setState] = createStore({
     },
     {
       name: "FacePlayer",
-      tags: ["PHP", "JavaScript", "Web App"],
+      tags: ["PHP", "JavaScript"],
       links: {
         GitHub: "https://github.com/SubZtep/faceplayer"
       },
