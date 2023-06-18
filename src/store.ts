@@ -13,7 +13,7 @@ export const [state, setState] = createStore({
       created: "2023-06-15",
       pictures: ["/projects/kaja/1.webp"],
       description:
-        "Perform a comparison of multiple hand gestures using Web Socket."
+        "Perform a real-time comparison of multiple hand gestures using Web Socket."
     },
     {
       name: "Cursor Bee",
