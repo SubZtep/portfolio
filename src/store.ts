@@ -4,14 +4,14 @@ export const [state, setState] = createStore({
   visibleTags: [] as string[],
   projects: [
     {
-      name: "Virtulala",
+      name: "Kaja",
       tags: ["JavaScript", "React JS"],
       links: {
-        Website: "https://virtulala.com/",
-        GitHub: "https://github.com/SubZtep/virtulala#readme"
+        Website: "https://kaja.io/",
+        GitHub: "https://github.com/SubZtep/kaja#readme"
       },
       created: "2023-06-15",
-      pictures: ["/projects/virtulala/virtulala_screenshot.webp"],
+      pictures: ["/projects/kaja/1.webp"],
       description:
         "Perform a comparison of multiple hand gestures using Web Socket."
     },
