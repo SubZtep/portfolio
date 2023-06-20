@@ -4,11 +4,11 @@ export const [state, setState] = createStore({
   visibleTags: [] as string[],
   projects: [
     {
-      name: "Kaja",
+      name: "DemoLand",
       tags: ["JavaScript", "React JS"],
       links: {
-        Website: "https://kaja.io/",
-        GitHub: "https://github.com/SubZtep/kaja#readme"
+        Website: "https://demo.land/",
+        GitHub: "https://github.com/SubZtep/demoland#readme"
       },
       created: "2023-06-15",
       pictures: ["/projects/kaja/1.webp"],
