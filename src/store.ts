@@ -11,7 +11,7 @@ export const [state, setState] = createStore({
         GitHub: "https://github.com/SubZtep/demoland#readme"
       },
       created: "2023-06-15",
-      pictures: ["/projects/kaja/1.webp"],
+      pictures: ["projects/kaja/1.webp"],
       description:
         "Perform a real-time comparison of multiple hand gestures using Web Socket."
     },
@@ -43,7 +43,7 @@ export const [state, setState] = createStore({
         GitHub: "https://github.com/SubZtep/depth#readme"
       },
       created: "2021-05-18",
-      pictures: ["/projects/Depth/2.webp", "/projects/Depth/1.webp", "/projects/Depth/3.webp"],
+      pictures: ["projects/Depth/2.webp", "projects/Depth/1.webp", "projects/Depth/3.webp"],
       description:
         "Web-app-like app that shares a viewport between 2D web pages and a 3D background scene for easy idea prototyping, a personal playground platform.\n\nContains many separated pages for different purposes, like meta-like lobby, implementing [Tensorflow APIs](https://js.tensorflow.org), commanding _WebGL_ with reactivity, etcetera."
     },
@@ -65,7 +65,7 @@ export const [state, setState] = createStore({
         Website: "https://serfozoiroda.hu/"
       },
       created: "2021-04-18",
-      pictures: ["/projects/serfozoiroda.hu/1.webp", "/projects/serfozoiroda.hu/2.webp"],
+      pictures: ["projects/serfozoiroda.hu/1.webp", "projects/serfozoiroda.hu/2.webp"],
       description:
         "My brother’s office website — in Hungarian local — with common web components (no pun): various info pages, embedded _OpenStreetMap_ navigation, contact form with its host compatible _PHPMailer_, prepared for both _UTF-8_ and _Latin-2_ messages using the free tier from _Google SMTP_. Even though it’s an _SPA_, all pages are pre-generated locally with _SSG_ and uploaded via _SFTP_. This _CI_ stack is very similar to my first web pages from the early ’90s, immediately it got the maximum _Lighthouse_ performance score."
     },
@@ -117,7 +117,7 @@ export const [state, setState] = createStore({
         GitHub: "https://github.com/SubZtep/aframe-warpspeed-texture#readme",
         Website: "https://subztep.github.io/aframe-warpspeed-texture/"
       },
-      pictures: ["/projects/WarpspeedTexture/1.webp"],
+      pictures: ["projects/WarpspeedTexture/1.webp"],
       created: "2020-11-14",
       description:
         "[A-Frame](https://aframe.io/) texture component for _ECS_ that sets real-time calculated animation and is still usable as a texture on any material without blocking the main thread, even I let it tweak until significant FPS drop for (assuming) any desktop or mobile. For its demonstration turn on `useWorker` on the demo page GUI.\n\nTo reach this goal the renderer moved to a worker thread and transferred control to an _OffscreenCanvas_. This technology is still experimental and rarely supported by browsers but shows how easy it will be to gain performance without significant code refactors."
@@ -217,7 +217,7 @@ export const [state, setState] = createStore({
       },
       youtube: "https://www.youtube.com/embed/9bFcMNmdp6E",
       created: "2018-08-19",
-      pictures: ["/projects/RoadPump/1.webp", "/projects/RoadPump/2.webp"],
+      pictures: ["projects/RoadPump/1.webp", "projects/RoadPump/2.webp"],
       description:
         "Built alongside with my designer partner for the _Ludum Dare 41_ game jam. Rhythm game, we made it in only three days from scratch. The test music was left in the game since we didn’t have time to write something catchy. Also it’s not really a rhythm game but the player has to imitated my close-to-deadline #[o rhythmless] run."
     },
@@ -240,10 +240,10 @@ export const [state, setState] = createStore({
       GitHub: "https://github.com/SubZtep/Ludum-Dare-40",
       created: "2017-12-05",
       pictures: [
-        "/projects/TheHungerMaims/4.webp",
-        "/projects/TheHungerMaims/1.webp",
-        "/projects/TheHungerMaims/2.webp",
-        "/projects/TheHungerMaims/3.webp"
+        "projects/TheHungerMaims/4.webp",
+        "projects/TheHungerMaims/1.webp",
+        "projects/TheHungerMaims/2.webp",
+        "projects/TheHungerMaims/3.webp"
       ],
       description:
         "For Ludum Dare 40 gamejam, all assets made by my designer partner and me including digitalized sound effects."
@@ -258,10 +258,10 @@ export const [state, setState] = createStore({
       youtube: "https://www.youtube.com/embed/-sVrlWMjpkw",
       created: "2017-11-28",
       pictures: [
-        "/projects/WhileFly/1.webp",
-        "/projects/WhileFly/2.webp",
-        "/projects/WhileFly/3.webp",
-        "/projects/WhileFly/4.webp"
+        "projects/WhileFly/1.webp",
+        "projects/WhileFly/2.webp",
+        "projects/WhileFly/3.webp",
+        "projects/WhileFly/4.webp"
       ],
       description: "Mobile game that has been released to all modern mobile platforms."
     },
